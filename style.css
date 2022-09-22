@@ -36,6 +36,7 @@ nav li {
     align-items: center;
     padding: 1rem;
     height: 4rem;
+    font-size: 0.8rem;
 }
 
 nav a {
@@ -47,13 +48,14 @@ nav a {
     height: 25px;
 }
 
-#login {
+.login {
     background-color: rgb(16, 98, 253);
     color: white;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
-nav li:hover{
+nav li:hover {
     border-bottom: 3px solid blue;
     background-clip: padding-box;
 }
@@ -61,8 +63,43 @@ nav li:hover{
 /* Come escludere il logo e login? li:not(.logo, #login)  */
 
 
-.bottom-header {
+.colored-header {
     max-width: 100%;
-    height: 600px;
+    height: 500px;
     background-color: rgb(179, 207, 230);
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 4rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.header-explaining {
+    display: flex;
+}
+
+.col-sx {
+    min-width: 30%;
+    max-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    column-gap: 2rem;;
+}
+
+.fa-arrow-down {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.jumbo {
+    max-width: 40rem;
 }
