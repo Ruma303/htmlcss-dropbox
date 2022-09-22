@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    width: 8rem;
+    height: 25px;
 }
 
 /* nav div {
@@ -36,6 +36,8 @@ body {
 nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
+
 }
 
 nav li {
@@ -47,11 +49,15 @@ nav a {
     color: black;
 }
 
-
 #login {
     background-color: rgb(16, 98, 253);
     color: white;
     padding: 0.5rem;
+}
+
+nav li:hover {
+    border: 3px solid blue;
+    background-clip: padding-box;
 }
 
 .bottom-header {
