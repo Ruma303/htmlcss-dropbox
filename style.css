@@ -103,3 +103,7 @@ header h1 {
 .jumbo {
     max-width: 40rem;
 }
+
+.header-explaining a {
+    width: fit-content;
+}
