@@ -9,29 +9,53 @@ html {
 }
 
 body {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
-.upper-header {
-    margin: 0 auto;
+.nav-bar{
+    margin: 0 2rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav-bar {
-    height: 5rem;
+.logo {
+    width: 8rem;
+}
+
+/* nav div {
+    display: flex;
+    align-items: center;
+} */
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 
-
-
-
-
+#login {
+    background-color: rgb(16, 98, 253);
+    color: white;
+    padding: 0.5rem;
+}
 
 .bottom-header {
     max-width: 100%;
     height: 600px;
-    background-color: aquamarine;
+    background-color: rgb(179, 207, 230);
 }
