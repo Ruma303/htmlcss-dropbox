@@ -14,6 +14,7 @@ body {
 
 .nav-bar{
     margin: 0 2rem;
+    /* padding: 0 0; */
     position: fixed;
     top: 0;
     left: 0;
@@ -28,11 +29,6 @@ body {
     height: 25px;
 }
 
-/* nav div {
-    display: flex;
-    align-items: center;
-} */
-
 nav ul {
     list-style: none;
     display: flex;
@@ -41,11 +37,13 @@ nav ul {
 
 nav li {
     padding: 1rem;
+    height: 4rem;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+    border: 0;
 }
 
 #login {
@@ -54,11 +52,13 @@ nav a {
     padding: 0.5rem;
 }
 
-nav li:hover {
+nav li:hover{
     border-bottom: 3px solid blue;
     background-clip: padding-box;
-
 }
+
+/* Come escludere il logo e login? li:not(.logo, #login)  */
+
 
 .bottom-header {
     max-width: 100%;
