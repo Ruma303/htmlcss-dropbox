@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    margin-top: 5rem;
+}
+
+.upper-header {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-bar {
+    height: 5rem;
+}
+
+
+
+
+
+
+
+.bottom-header {
+    max-width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+}
