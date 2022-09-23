@@ -11,27 +11,23 @@
 <body>
 
     <header>
-        <nav class="nav-bar">
-            <div>
+        <nav class="nav-bar">       
                 <ul>
                     <li><a href="#!">
-                        <img src="img/logo-small.png" class="logo">
+                        <img src="img/logo-small.png" class="logo click-area">
                     </a>
                     </li>
-                    <li><a href="#!">Perchè Dropbox</a></li>
-                    <li><a href="#!">Funzioni</a></li>
-                    <li><a href="#!">Piani e Prezzi</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Perchè Dropbox</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Funzioni</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Piani e Prezzi</a></li>
                 </ul>
-            </div>
 
-            <div>
                 <ul>
-                    <li><a href="#!">Supporto</a></li>
-                    <li><a href="#!">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#!">Accedi</a></li>
-                    <li><a href="#!" class="login">Inizia</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Supporto</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#!" class="click-area border-bottom">Accedi</a></li>
+                    <li><a href="#!" class="login click-area">Inizia</a></li>
                 </ul>
-            </div>
         </nav>
         
         <div class="colored-header">
@@ -42,7 +38,7 @@
                 <div class="header-explaining">
                     <div class="col-sx">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                        <a href="#!" class="login">Inizia la tua prova gratuita</a>
+                        <a href="#trova-piano" class="login">Inizia la tua prova gratuita</a>
                         <div>Annulla in qualsiasi momento</div>
                         <div>
                             <i class="fa-solid fa-arrow-down"></i>
@@ -52,17 +48,77 @@
                     <div class="col-dx">
                         <img src="img/jumbo.png" class="jumbo">
                     </div>
-
-
-
                 </div>
 
            </div>
         </div>
     </header>
 
-    <main>
+    <main class="centered-container">
+        <section class="piano-business">
+            <div class="business-row">
+                <h1 id="trova-piano">Trova il piano business che fa per te</h1>
+            </div>
+            <div class="business-row radio">
+                <form action="url" method="post">
+                    <input type="radio" name="fatturazione" id="mensile">
+                    <label for="mensile">Fatturazione mensile</label> 
+                    <input type="radio" name="fatturazione" id="annuale">
+                    <label for="annuale">Fatturazione annuale</label> 
+                </form>
+            </div>
 
+            <div class="business-row plans-row">
+                <div class="business-col-plan">
+                    <div class="member-type">
+                        <span><i class="fa-solid fa-user"></i> Singolo</span>
+                    </div>
+                </div>
+                <!-- <div class="business-col-plan">
+
+                </div>
+                <div class="business-col-plan">
+
+                </div> -->
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+
+
+
+
+
+
+
+
+        
     </main>
 
     <footer>
