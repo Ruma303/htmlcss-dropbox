@@ -164,16 +164,14 @@ main label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 .business-col-plan {
     border: solid 1px lightgray;
+    width: 280px;
     display: flex;
     flex-direction: column;
-    align-items: calc((100% - 2em) / 3);
-    flex: 0 0 33%;
-    
+    flex: 0 0 calc((100% - 3em) / 3);
 }
 
 .type {
@@ -189,7 +187,13 @@ main label {
     margin: 20px 20px;
 }
 
+
 .price {
     font-weight: bold;
+    font-size: 0.8em;
+}
+
+.duration-plan {
+    color: rgb(117, 123, 128);
     font-size: 0.8em;
 }
