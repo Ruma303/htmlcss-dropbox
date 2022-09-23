@@ -10,13 +10,19 @@ html {
 
 body {
     margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    padding: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-container {
+    max-width: 800px;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .nav-bar{
-    max-width: 100%;
     background-color: white;
     margin: 0;
     position: fixed;
@@ -173,10 +179,6 @@ main label {
     gap: 0.5em;
 }
 
-.business-row ul {
-    list-style: none;
-}
-
 .member-type, .description, .prova-container, .specs {
     display: flex;
     flex-direction: column;
@@ -188,7 +190,6 @@ main label {
     font-weight: bold;
     font-size: 0.8em;
     margin-top: 0.5rem;
-
 }
 
 .duration-plan {
@@ -203,9 +204,10 @@ main label {
 
 .prova {
     background-color: rgb(16, 98, 253);
-    padding: 1em 2em;
+    padding: 1em 4em;
     text-align: center;
-    margin: 1em 0;
+    margin: 1em auto;
+    width: fit-content;
 }
 
 .prova a {
@@ -231,3 +233,42 @@ main label {
 .fa-check {
     color: blue;
 }
+
+/* SECTION 2 */
+
+.section2-container {
+    border: solid 1px lightgray;
+}
+
+.section2-up {
+    border: solid 1px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 0.5em;
+}
+
+/* potevo fare 2 colonne, una con i test ed una con il pulsante, ma ho voluto sperimentare il position:relative :) */
+
+.section2-down {
+    border: solid 1px lightgray;
+    padding: 3em 2em;
+}
+
+#sec2-title {
+    font-size: 1.3rem;
+}
+
+#contatta {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#call-btn {
+    position: relative;
+    left: 25rem;
+    bottom: 6rem;
+}
+
+/* SEZIONE 3 */
