@@ -272,3 +272,38 @@ main label {
 }
 
 /* SEZIONE 3 */
+
+.sec3-container {
+    margin: 5rem auto;
+    display: flex;
+}
+
+.sec3-col-dx {
+    display: flex;
+    padding: 3rem;
+    padding-right: 10rem;
+    font-size: 110%;    
+}
+
+.ul-sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#img-partner {
+    width: 700px;
+}
+
+.transp-btn {
+    border: solid 1px black;
+    width: fit-content;
+    padding: 0.8em;
+}
+
+.transp-btn a {
+    text-decoration: none;
+    color: black;
+}
+
