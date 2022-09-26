@@ -18,8 +18,6 @@ ul {
 
 .header-container {
     max-width: 800px;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .nav-bar{
@@ -94,6 +92,8 @@ header h1 {
     font-weight: 900;
     margin-bottom: 2rem;
     padding-top: 4rem;
+    display: flex;
+    flex-basis: 100%;
 }
 
 .header-explaining {
@@ -112,15 +112,13 @@ header h1 {
 .col-dx img {
     position: relative;
     margin-bottom: -3rem;
+    max-width: 40rem;
+    object-fit: contain;
 }
 
 .fa-arrow-down {
     font-size: 2.5rem;
     font-weight: 900;
-}
-
-.jumbo {
-    max-width: 40rem;
 }
 
 .header-explaining a {
@@ -168,13 +166,12 @@ main label {
     width: 300px;
     display: flex;
     flex-direction: column;
-    flex: 0 0 calc((100% - 3em) / 3);
+    flex: 0 1 calc((100% - 3em) / 3);
 }
 
 .type {
     border-bottom: solid 1px lightgray;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 1em;
     gap: 0.5em;
 }
@@ -215,16 +212,11 @@ main label {
     text-decoration: none;
 }
 
-.border-bottom-grey {
-    background-clip: padding-box;
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 2em;
-    width: fit-content;
+section hr {
+    margin-top: 1em;;
+    width: 50px;
+    color: lightgray;
 }
-
-/* .border-bottom-grey:not(.not-underlined) {
-    border: none;
-} */
 
 .specs {
     padding-bottom: 5em;
