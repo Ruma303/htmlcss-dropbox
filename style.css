@@ -438,3 +438,29 @@ section hr {
 #sp8 {
     background-color: rgb(255, 216, 48);
 }
+
+.logo-row-down {
+    background-color: rgb(180, 208, 231);
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-row-down ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.logo-row-down h1 {
+    color: rgb(95, 1, 34);
+    font-size: 2rem;
+    margin-top: -0.5em;
+}
+
+.logo-row-down .login {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgrey;
+    padding: 0.5rem 3rem;
+}
