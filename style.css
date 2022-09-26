@@ -30,7 +30,7 @@ ul {
     justify-content: space-between;
     white-space: nowrap;
     z-index: 999999;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 nav ul {
@@ -375,7 +375,8 @@ section hr {
 }
 
 #sp2 {
-    background-color: rgb(97, 8, 43);
+    background-color: rgb(158, 247, 212);
+    filter: invert(1);
 }
 
 #sp3 {
@@ -384,13 +385,14 @@ section hr {
 }
 
 #sp4 {
-    background-color: rgb(255, 28, 28);
+    background-color: rgb(0, 227, 227);
+    filter: invert(1);
 }
 
 .sponsors-center {
     flex-basis: 33%;
     padding: 2rem;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .sponsors-center ul {
