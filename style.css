@@ -328,3 +328,27 @@ section hr {
     /* height: 500px; */
     flex: 1 1 250px;
 }
+
+/* SEZIONE 5 */
+
+.sec5 {
+    margin: 10rem 0;
+    max-width: 70%;
+}
+
+.sec5 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sec5 h1 {
+    display: flex;
+    flex-basis: 100%;
+    font-size: 2rem;
+    margin: 0 0;
+    text-align: left; 
+}
+
+
+/* SEZIONE 6 */
