@@ -353,13 +353,13 @@ section hr {
 .sponsors-left {
     display: flex;
     flex-wrap: wrap;
-    /* flex: 1 1 33%; */
+    flex: 1 1 33%;
 }
 
 .logo-container {
     display: flex;
     flex: 1 1 50%;
-    /* width: 200px; */
+    height: 50%;
 }
 
 .sec6 img{
