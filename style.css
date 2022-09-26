@@ -332,7 +332,7 @@ section hr {
 /* SEZIONE 5 */
 
 .sec5 {
-    margin: 10rem 0;
+    margin: 10rem 0 7rem;
     max-width: 70%;
 }
 
@@ -350,5 +350,76 @@ section hr {
     text-align: left; 
 }
 
-
 /* SEZIONE 6 */
+
+.sec6 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row-up {
+    display: flex;
+    flex: 1 1 calc((100% - 3em) / 3);
+}
+
+.sponsors-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 33%;
+}
+
+.sec6 img{
+    padding: 1em;
+    width: 250px;
+}
+
+#sp1 {
+    background-color: rgb(162, 211, 155);
+}
+
+#sp2 {
+    background-color: rgb(97, 8, 43);
+}
+
+#sp3 {
+    background-color: rgb(0, 147, 206);
+}
+
+#sp4 {
+    background-color: rgb(255, 28, 28);
+}
+
+.sponsors-center {
+    flex-basis: 33%;
+}
+
+.sponsors-center hr{
+    color: lightgrey;
+    width: 100px;
+}
+
+#designit-logo {
+    padding: 0 0;
+}
+
+.sponsors-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 33%;
+}
+
+#sp5 {
+    background-color: rgb(213, 0, 31);
+}
+
+#sp6 {
+    background-color: rgb(180, 208, 231);
+}
+
+#sp7 {
+    background-color: rgb(13, 36, 129);
+}
+
+#sp8 {
+    background-color: rgb(255, 216, 48);
+}
