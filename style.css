@@ -316,8 +316,9 @@ section hr {
 }
 
 .cards-container {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
+    flex: 0 1 calc((100% - 3em) / 3);
 }
 
 .card {
@@ -326,8 +327,4 @@ section hr {
     max-width: 33%;
     /* height: 500px; */
     flex: 1 1 250px;
-}
-
-.card img {
-    max-width: 100%;
 }
