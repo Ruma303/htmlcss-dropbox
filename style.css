@@ -302,12 +302,6 @@ section hr {
 
 /* SEZIONE 4 */
 
-.sec4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3rem 0;
-}
-
 #sec4-title {
     display: flex;
     flex: 0 0 100%;
@@ -332,8 +326,7 @@ section hr {
 /* SEZIONE 5 */
 
 .sec5 {
-    margin: 10rem 0 7rem;
-    max-width: 70%;
+    margin: 10rem 7rem;
 }
 
 .sec5 ul {
@@ -351,10 +344,6 @@ section hr {
 }
 
 /* SEZIONE 6 */
-
-/* .sec6 {
-    max-width: 100vw;
-} */
 
 .row-up {
     display: flex;
