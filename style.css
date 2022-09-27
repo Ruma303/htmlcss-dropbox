@@ -492,8 +492,6 @@ section hr {
 .faq {
     border-bottom: solid 1px lightgray;
     padding: 2em 0;
-    /* display: flex; */
-    /* flex: 1 1 auto; */
     max-width: 100%;
 }
 
@@ -508,14 +506,14 @@ section hr {
     padding-right: 3em;
 }
 
-.faq p {
+.info {
     padding: 2em 2em 3em 0;
     font-size: .9em;
     display: none;
 }
 
-.faq p:hover{
-    display: inline-block;
+#info1:hover{
+    display: block;
 }
 
 /* FOOTER */
