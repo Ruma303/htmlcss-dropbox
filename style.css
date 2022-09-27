@@ -16,21 +16,24 @@ ul {
     list-style: none;
 }
 
+header {
+    width: 100%;
+}
+
 .nav-bar{
     background-color: white;
+    width: 1300px;
+    height: 4rem;
     margin: 0 auto;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
     z-index: 999999;
-    max-width: 100%;
-    padding: 0 15%;
 }
 
 nav ul {
@@ -512,7 +515,7 @@ section hr {
     display: none;
 }
 
-#info1:hover{
+#info1{
     display: block;
 }
 
