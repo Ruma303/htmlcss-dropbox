@@ -16,19 +16,18 @@ ul {
     list-style: none;
 }
 
-header {
+.header-container {
+    background-color: white;
     width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
 }
 
 .nav-bar{
-    background-color: white;
     width: 1300px;
     height: 4rem;
     margin: 0 auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -515,9 +514,12 @@ section hr {
     display: none;
 }
 
-#info1{
+.faq:hover .info {
+    padding: 2em 2em 3em 0;
+    font-size: .9em;
     display: block;
 }
+
 
 /* FOOTER */
 
